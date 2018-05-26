@@ -1,261 +1,511 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>DRT | Democritus Racing Team</title>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<title>DRT | Democritus Racing Team</title>
+		<!-- CSS  -->
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+		<link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+	</head>
+	<body>
+		<ul id="dropdownsponsors" class="dropdown-content">
+	    <li><a class="deep-purple-text" href="sponsors.html">Current Sponsors</a></li>
+	    <li><a class="deep-purple-text" href="project50x50.html">Project 50x50</a></li>
+	    <li><a class="deep-purple-text" href="mediasponsors.html">Media Sponsors</a></li>
+	  </ul>
+	  <ul id="dropdownsponsors-side" class="dropdown-content">
+	    <li><a class="deep-purple-text" href="sponsors.html">Current Sponsors</a></li>
+	    <li><a class="deep-purple-text" href="project50x50.html">Project 50x50</a></li>
+	    <li><a class="deep-purple-text" href="mediasponsors.html">Media Sponsors</a></li>
+	  </ul>
+	  <nav class="deep-purple" role="navigation">
+	    <div class="nav-wrapper container">
+	      <a id="logo-container" href="index.html" class="brand-logo hide-on-med-and-down"><img style="height:10%; width:10%;" src="images/logos/logo.png"</a>
+	      <ul class="right hide-on-med-and-down">
+	        <li><a class="white-text" href="#">About</a></li>
+	        <li class="active"><a class="white-text" href="team.html">Team</a></li>
+	        <li><a class="dropdown-trigger white-text" href="#!" data-target="dropdownsponsors">Sponsorship<i class="material-icons right white-text">arrow_drop_down</i></a></li>
+	      </ul>
 
-  <!-- CSS  -->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-</head>
-<body>
-  <ul id="dropdownsponsors" class="dropdown-content">
-    <li><a class="deep-purple-text" href="sponsors.html">Current Sponsors</a></li>
-    <li><a class="deep-purple-text" href="project50x50.html">Project 50x50</a></li>
-    <li><a class="deep-purple-text" href="mediasponsors.html">Media Sponsors</a></li>
-  </ul>
-  <nav class="deep-purple" role="navigation">
-    <div class="nav-wrapper container">
-      <a id="logo-container" href="index.html" class="brand-logo hide-on-med-and-down"><img style="height:10%; width:10%;" src="images/logos/logo.png"</a>
-      <ul class="right hide-on-med-and-down">
-        <li><a class="white-text" href="#">About</a></li>
-        <li class="active"><a class="white-text" href="team.html">Team</a></li>
-        <li><a class="dropdown-trigger white-text" href="#!" data-target="dropdownsponsors">Sponsorship<i class="material-icons right">arrow_drop_down</i></a></li>
-      </ul>
+	      <ul id="nav-mobile" class="sidenav deep-purple">
+	        <li><a class="white-text" href="#">About</a></li>
+	        <li class="active"><a class="white-text" href="team.html">Team</a></li>
+	        <li><a class="dropdown-trigger white-text" href="#!" data-target="dropdownsponsors-side">Sponsorship<i class="material-icons right white-text">arrow_drop_down</i></a></li>
+	      </ul>
+	      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons white-text">menu</i></a>
+	    </div>
+	  </nav>
+		<div id="index-banner" class="parallax-container">
+			<div class="parallax"><img src="images/backgrounds/background_team.png" class="responsive-image" alt="Unsplashed background img 1"></div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col s12 m9 l10">
+					<div id="structure" class="section scrollspy">
+						<h4>Team Structure</h4>
+						<p>The team is divided into two groups of subsystems, mechanical and electrical. Our 50 members may be working/living/contributing in any of these subteams.</p>
+						<ul class="collapsible expandable">
+							<li>
+								<div class="collapsible-header"><i class="material-icons deep-purple-text">group</i>7 Executive Positions</div>
+								<div class="collapsible-body">
+									<p>
+										The electrical and software leads manage the electrical systems necessary for the car to function.
+									</p>
+									<p>
+										The chief engineer takes care of the mechanical systems and manages topics ranging from aerodynamics to frame design and packaging.
+									</p>
+									<p>
+										The captain monitors the progress of the enitre team. On the nontechnical side, the captain directs a business team and a publicity team.
+									</p>
+								</div>
+							</li>
+							<li>
+								<div class="collapsible-header"><i class="material-icons deep-purple-text">settings</i>4 Mechanical Subteams</div>
+								<div class="collapsible-body">
+									<ul class="collection">
+										<li class="collection-item">Powertrain</li>
+										<li class="collection-item">Frame - Aerodynamics</li>
+										<li class="collection-item">Suspension</li>
+										<li class="collection-item">Steering & Braking</li>
+									</ul>
+								</div>
+							</li>
+							<li>
+								<div class="collapsible-header"><i class="material-icons deep-purple-text">insert_chart</i>2 Marketing Subteams</div>
+								<div class="collapsible-body">
+									<ul class="collection">
+										<li class="collection-item">Sponsorship - Media - Events</li>
+										<li class="collection-item">Business Plan - Presentations</li>
+									</ul>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<h4 id="members" class="scrollspy">Team Members</h4>
+					<div class="divider"></div>
+					<div id="executives" class="scrollspy">
+						<br />
+						<h5>Executives</h5>
+						<div class="row">
+							<div class="col s12 m3">
+								<div class="card">
+									<div class="card-image waves-effect waves-block waves-light">
+										<img class="activator responsive-img" src="images/no-image-m.png">
+									</div>
+									<div class="card-content">
+										<span class="card-title flow-text activator grey-text text-darken-4">Stavros<br />Syntosis</span>
+										<span class="black-text">Team Leader</span>
+									</div>
+								</div>
+							</div>
+							<div class="col s12 m3">
+								<div class="card">
+									<div class="card-image waves-effect waves-block waves-light">
+										<img class="activator responsive-img" src="images/no-image-m.png">
+									</div>
+									<div class="card-content">
+										<span class="card-title flow-text activator grey-text text-darken-4">Thanasis<br />Mantzoukas</span>
+										<span class="black-text">Chief Engineer<br />Powertrain Team Leader</span>
+									</div>
+								</div>
+							</div>
+							<div class="col s12 m3">
+								<div class="card">
+									<div class="card-image waves-effect waves-block waves-light">
+										<img class="activator responsive-img" src="images/no-image-m.png">
+									</div>
+									<div class="card-content">
+										<span class="card-title flow-text activator grey-text text-darken-4">Stratos<br />Vergetidis</span>
+										<span class="black-text">Powertrain Co-Team Leader</span>
+									</div>
+								</div>
+							</div>
+							<div class="col s12 m3">
+								<div class="card">
+									<div class="card-image waves-effect waves-block waves-light">
+										<img class="activator responsive-img" src="images/no-image-m.png">
+									</div>
+									<div class="card-content">
+										<span class="card-title flow-text activator grey-text text-darken-4">Thanasis<br />Vagionas</span>
+										<span class="black-text">Frame-Aerodynamics Team Leader</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col s12 m3">
+								<div class="card">
+									<div class="card-image waves-effect waves-block waves-light">
+										<img class="activator responsive-img" src="images/no-image-m.png">
+									</div>
+									<div class="card-content">
+										<span class="card-title flow-text activator grey-text text-darken-4">Valantis<br />Dovris</span>
+										<span class="black-text">Frame-Aerodynamics Co-Team Leader</span>
+									</div>
+								</div>
+							</div>
+							<div class="col s12 m3">
+								<div class="card">
+									<div class="card-image waves-effect waves-block waves-light">
+										<img class="activator responsive-img" src="images/no-image-m.png">
+									</div>
+									<div class="card-content">
+										<span class="card-title flow-text activator grey-text text-darken-4">Stratos<br />Kyrlagitsis</span>
+										<span class="black-text">Driver<br>Suspension Team Leader</span>
+									</div>
+								</div>
+							</div>
+							<div class="col s12 m3">
+								<div class="card">
+									<div class="card-image waves-effect waves-block waves-light">
+										<img class="activator responsive-img" src="images/no-image-m.png">
+									</div>
+									<div class="card-content">
+										<span class="card-title flow-text activator grey-text text-darken-4">Iosif<br />Maragos</span>
+										<span class="black-text">Steering & Braking Team Leader</span>
+									</div>
+								</div>
+							</div>
+							<div class="col s12 m3">
+								<div class="card">
+									<div class="card-image waves-effect waves-block waves-light">
+										<img class="activator responsive-img" src="images/no-image-m.png">
+									</div>
+									<div class="card-content">
+										<span class="card-title flow-text activator grey-text text-darken-4">Thanasis<br />Papadimitriou</span>
+										<span class="black-text">Electronics Team Leader</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="divider"></div>
+					<h5 id="marketing" class="scrollspy">Marketing</h5>
+					<br />
+					<div class="row valign-wrapper">
+						<div class="col s12 m4">
+							<div class="card white">
+								<div class="card-content">
+									<span class="card-title">Tania David</span>
+									<span class="black-text">Title</span>
+								</div>
+							</div>
+						</div>
+						<div class="col s12 m4">
+							<div class="card white">
+								<div class="card-content">
+									<span class="card-title">Giannis Kelesis</span>
+									<span class="black-text">Title</span>
+								</div>
+							</div>
+						</div>
+						<div class="col s12 m4">
+							<div class="card white">
+								<div class="card-content">
+									<span class="card-title">Konstantinos Vagenas</span>
+									<span class="black-text">Title</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row valign-wrapper">
+						<div class="col s12 m4">
+							<div class="card white">
+								<div class="card-content">
+									<span class="card-title">Katerina Nana</span>
+									<span class="black-text">Title</span>
+								</div>
+							</div>
+						</div>
+						<div class="col s12 m4">
+							<div class="card white">
+								<div class="card-content">
+									<span class="card-title">Dimitris Cheimariotis</span>
+									<span class="black-text">Title</span>
+								</div>
+							</div>
+						</div>
+						<div class="col s12 m4">
+							<div class="card white">
+								<div class="card-content">
+									<span class="card-title">Spiros Leftheris</span>
+									<span class="black-text">Title</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row valign-wrapper">
+						<div class="col s12 m4">
+							<div class="card white">
+								<div class="card-content">
+									<span class="card-title">Theodora Manti</span>
+									<span class="black-text">Title</span>
+								</div>
+							</div>
+						</div>
+						<div class="col s12 m4">
+							<div class="card white">
+								<div class="card-content">
+									<span class="card-title">Thodoris Papadopoulos</span>
+									<span class="black-text">Title</span>
+								</div>
+							</div>
+						</div>
+						<div class="col s12 m4">
+							<div class="card white">
+								<div class="card-content">
+									<span class="card-title">Vasilis Tosounidis</span>
+									<span class="black-text">Title</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<br />
+					<div class="divider"></div>
+					<h5 id="powertrain" class="scrollspy">Powertrain</h5>
+					<br />
+					<div class="row valign-wrapper">
+						<div class="col s12 m4">
+							<div class="card white">
+								<div class="card-content">
+									<span class="card-title">Nikos Papadis</span>
+									<span class="black-text">Title</span>
+								</div>
+							</div>
+						</div>
+						<div class="col s12 m4">
+							<div class="card white">
+								<div class="card-content">
+									<span class="card-title">Giorgos-Orestis Famelitis</span>
+									<span class="black-text">Title</span>
+								</div>
+							</div>
+						</div>
+						<div class="col s12 m4">
+							<div class="card white">
+								<div class="card-content">
+									<span class="card-title">Nikos Mitsou</span>
+									<span class="black-text">Title</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row valign-wrapper">
+						<div class="col s12 m4">
+							<div class="card white">
+								<div class="card-content">
+									<span class="card-title">Lampros Themos</span>
+									<span class="black-text">Title</span>
+								</div>
+							</div>
+						</div>
+						<div class="col s12 m4">
+							<div class="card white">
+								<div class="card-content">
+									<span class="card-title">Dimitris Thomaidis</span>
+									<span class="black-text">Title</span>
+								</div>
+							</div>
+						</div>
+						<div class="col s12 m4">
+							<div class="card white">
+								<div class="card-content">
+									<span class="card-title">Giorgos Kotzampasis</span>
+									<span class="black-text">Title</span>
+								</div>
+							</div>
+						</div>
+						<div class="col s12 m4">
+							<div class="card white">
+								<div class="card-content">
+									<span class="card-title">Giorgos Tzetzis</span>
+									<span class="black-text">Title</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<br />
+					<div class="divider"></div>
+					<h5  id="frame-aero" class="scrollspy">Frame - Aerodynamics</h5>
+					<br />
+					<div class="row valign-wrapper">
+						<div class="col s12 m4">
+							<div class="card white">
+								<div class="card-content">
+									<span class="card-title">Pavlos Dimadis</span>
+									<span class="black-text">Title</span>
+								</div>
+							</div>
+						</div>
+						<div class="col s12 m4">
+							<div class="card white">
+								<div class="card-content">
+									<span class="card-title">Maria Charalampidou</span>
+									<span class="black-text">Title</span>
+								</div>
+							</div>
+						</div>
+						<div class="col s12 m4">
+							<div class="card white">
+								<div class="card-content">
+									<span class="card-title">Vagelis Poulias</span>
+									<span class="black-text">Title</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<br />
+					<div class="divider"></div>
+					<h5 id="suspension" class="scrollspy">Suspension</h5>
+					<br />
+					<div class="row valign-wrapper">
+						<div class="col s12 m4">
+							<div class="card white">
+								<div class="card-content">
+									<span class="card-title">Stratos Serpetidis</span>
+									<span class="black-text">Title</span>
+								</div>
+							</div>
+						</div>
+						<div class="col s12 m4">
+							<div class="card white">
+								<div class="card-content">
+									<span class="card-title">Thanasis Argyropoulos</span>
+									<span class="black-text">Title</span>
+								</div>
+							</div>
+						</div>
+						<div class="col s12 m4">
+							<div class="card white">
+								<div class="card-content">
+									<span class="card-title">Nikolaos Konstantinidis</span>
+									<span class="black-text">Title</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<br />
+					<div class="divider"></div>
+					<h5 id="steeringbr" class="scrollspy">Steering & Braking</h5>
+					<br />
+					<div class="row valign-wrapper">
+						<div class="col s12 m4">
+							<div class="card white">
+								<div class="card-content">
+									<span class="card-title">Marinos Karagiannidis</span>
+									<span class="black-text">Title</span>
+								</div>
+							</div>
+						</div>
+						<div class="col s12 m4">
+							<div class="card white">
+								<div class="card-content">
+									<span class="card-title">Loukas Paparoulias</span>
+									<span class="black-text">Title</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<br />
+					<div class="divider"></div>
+					<h5 id="electronics" class="scrollspy">Electronics</h5>
+					<br />
+					<div class="row valign-wrapper">
+						<div class="col s12 m4">
+							<div class="card white">
+								<div class="card-content">
+									<span class="card-title">Chara Tzimoraga</span>
+									<span class="black-text">Title</span>
+								</div>
+							</div>
+						</div>
+						<div class="col s12 m4">
+							<div class="card white">
+								<div class="card-content">
+									<span class="card-title">Vicky Patika</span>
+									<span class="black-text">Title</span>
+								</div>
+							</div>
+						</div>
+						<div class="col s12 m4">
+							<div class="card white">
+								<div class="card-content">
+									<span class="card-title">Stella Liagou</span>
+									<span class="black-text">Title</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col hide-on-small-only m3 l2">
+					<div class="pin-top pinned">
+						<ul class="section table-of-contents">
+							<li><a href="#structure">Team Structure</a></li>
+							<li><a href="#members">Members</a></li>
+							<li><a href="#executives">Executives</a></li>
+							<li><a href="#marketing">Marketing</a></li>
+							<li><a href="#powertrain">Powertrain</a></li>
+							<li><a href="#frame-aero">Frame - Aerodynamics</a></li>
+							<li><a href="#suspension">Suspension</a></li>
+							<li><a href="#steeringbr">Steering & Braking</a></li>
+							<li><a href="#electronics">Electronics</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer class="page-footer deep-purple">
+	    <div class="container">
+	      <div class="row">
+	        <div class="col l6 s12">
+	          <h5 class="white-text">DRT Info</h5>
+	          <p class="grey-text text-lighten-4">Democritus Racing Team was founded in the winter of 2015 from the Production and Management Engineering department in the Democritus University of Thrace (Xanthe, Greece).The team consists of university undergraduate students full of passion and will, intend to represent the university in the international Formula SAE Series races.The team is housed in the PME building, where all the planning and organization happens. </p>
 
-      <ul id="nav-mobile" class="sidenav deep-purple">
-        <li><a href="#">Navbar Link</a></li>
-      </ul>
-      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons white-text">menu</i></a>
-    </div>
-  </nav>
 
-  <div id="index-banner" class="parallax-container">
-    <div class="parallax"><img src="images/backgrounds/background_team.png" class="responsive-image" alt="Unsplashed background img 1"></div>
-  </div>
-
-
-  <div class="container">
-    <div class="row">
-      <div class="col s12 m9 l10">
-        <div id="structure" class="section scrollspy">
-          <h4>Team Structure</h4>
-          <p>The team is divided into two groups of subsystems, mechanical and electrical. Our 50 members may be working/living/contributing in any of these subteams.</p>
-          <ul class="collapsible expandable">
-            <li>
-              <div class="collapsible-header"><i class="material-icons deep-purple-text">group</i>4 Executive Positions</div>
-              <div class="collapsible-body">
-                <p>
-                  The electrical and software leads manage the electrical systems necessary for the car to function.
-                </p>
-                <p>
-                  The chief engineer takes care of the mechanical systems and manages topics ranging from aerodynamics to frame design and packaging.
-                </p>
-                <p>
-                  The captain monitors the progress of the enitre team. On the nontechnical side, the captain directs a business team and a publicity team.
-                </p>
-              </div>
-            </li>
-            <li>
-              <div class="collapsible-header"><i class="material-icons deep-purple-text">settings</i>13 Mechanical Subteams</div>
-              <div class="collapsible-body">
-                <ul class="collection">
-
-                </ul>
-              </div>
-            </li>
-          </ul>
-        </div>
-
-        <div id="members" class="section scrollspy">
-          <h4>Team Members</h4>
-          <div class="row">
-            <div class="col s12 m3">
-              <div class="card">
-                <div class="card-image waves-effect waves-block waves-light">
-                  <img class="activator responsive-img" src="images/no-image-m.png">
-                </div>
-                <div class="card-content">
-                  <span class="card-title flow-text activator grey-text text-darken-4">Team<br />Leader</span>
-                  <span class="black-text">Captain<br>Mechanical Engineering '22</span>
-                </div>
-              </div>
-            </div>
-            <div class="col s12 m3">
-              <div class="card">
-                <div class="card-image waves-effect waves-block waves-light">
-                  <img class="activator responsive-img" src="images/no-image-m.png">
-                </div>
-                <div class="card-content">
-                  <span class="card-title flow-text activator grey-text text-darken-4">Team<br />Leader</span>
-                  <span class="black-text">Captain<br>Mechanical Engineering '22</span>
-                </div>
-              </div>
-            </div>
-            <div class="col s12 m3">
-              <div class="card">
-                <div class="card-image waves-effect waves-block waves-light">
-                  <img class="activator responsive-img" src="images/no-image-m.png">
-                </div>
-                <div class="card-content">
-                  <span class="card-title flow-text activator grey-text text-darken-4">Team<br />Leader</span>
-                  <span class="black-text">Captain<br>Mechanical Engineering '22</span>
-                </div>
-              </div>
-            </div>
-            <div class="col s12 m3">
-              <div class="card">
-                <div class="card-image waves-effect waves-block waves-light">
-                  <img class="activator responsive-img" src="images/no-image-m.png">
-                </div>
-                <div class="card-content">
-                  <span class="card-title flow-text activator grey-text text-darken-4">Team<br />Leader</span>
-                  <span class="black-text">Captain<br>Mechanical Engineering '22</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row valign-wrapper">
-                  <div class="col s12 m4">
-                    <div class="card white">
-                      <div class="card-content">
-                        <span class="card-title">Name Surname</span>
-                        <span class="black-text">Title</span>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col s12 m4">
-                    <div class="card white">
-                      <div class="card-content">
-                        <span class="card-title">Name Surname</span>
-                        <span class="black-text">Title</span>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col s12 m4">
-                    <div class="card white">
-                      <div class="card-content">
-                        <span class="card-title">Name Surname</span>
-                        <span class="black-text">Title</span>
-                      </div>
-                    </div>
-                  </div>
-            </div>
-            <div class="row valign-wrapper">
-                    <div class="col s12 m4">
-                      <div class="card white">
-                        <div class="card-content">
-                          <span class="card-title">Name Surname</span>
-                          <span class="black-text">Title</span>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col s12 m4">
-                      <div class="card white">
-                        <div class="card-content">
-                          <span class="card-title">Name Surname</span>
-                          <span class="black-text">Title</span>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col s12 m4">
-                      <div class="card white">
-                        <div class="card-content">
-                          <span class="card-title">Name Surname</span>
-                          <span class="black-text">Title</span>
-                        </div>
-                      </div>
-                    </div>
-              </div>
-              <div class="row valign-wrapper">
-                      <div class="col s12 m4">
-                        <div class="card white">
-                          <div class="card-content">
-                            <span class="card-title">Name Surname</span>
-                            <span class="black-text">Title</span>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col s12 m4">
-                        <div class="card white">
-                          <div class="card-content">
-                            <span class="card-title">Name Surname</span>
-                            <span class="black-text">Title</span>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col s12 m4">
-                        <div class="card white">
-                          <div class="card-content">
-                            <span class="card-title">Name Surname</span>
-                            <span class="black-text">Title</span>
-                          </div>
-                        </div>
-                      </div>
-                </div>
-        </div>
-
-      </div>
-
-
-
-      <div class="col hide-on-small-only m3 l2">
-        <div class="pin-top pinned">
-          <ul class="section table-of-contents">
-            <li><a href="#structure">Team Structure</a></li>
-            <li><a href="#members">Members</a></li>
-            <li><a href="#join">Join the team</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-
-
-  </div>
-
-
-
-  <footer class="page-footer deep-purple">
-    <div class="container">
-      <div class="row">
-        <div class="col l6 s12">
-          <h5 class="white-text">Company Bio</h5>
-          <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
-
-
-        </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Settings</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul>
-        </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Connect</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div class="footer-copyright">
-      <div class="container">
-      </div>
-    </div>
-  </footer>
-
-
-  <!--  Scripts-->
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="js/materialize.js"></script>
-  <script src="js/init.js"></script>
-  </body>
+	        </div>
+	        <div class="col l3 s12">
+	          <h5 class="white-text">Sitemap</h5>
+	          <div class="row valign-wrapper">
+	            <div class="col l11 m11">
+	              <ul>
+	                <li><a class="white-text" href="index.html">Home</a></li>
+	                <li><a class="white-text" href="#!">About</a></li>
+	                <li><a class="white-text" href="team.html">Team</a></li>
+	                <li><a class="white-text" href="sponsors.html">Current Sponsors</a></li>
+	              </ul>
+	            </div>
+	            <div class="col l12 m12">
+	              <ul>
+	                <li><a class="white-text" href="mediasponsors.html">Media Sponsors</a></li>
+	                <li><a class="white-text" href="project50x50.html">Project 50x50</a></li>
+	                <li><a class="white-text" href="#!">Contact</a></li>
+	              </ul>
+	            </div>
+	          </div>
+	        </div>
+	        <div class="col l3 s12">
+	          <h5 class="white-text">Connect</h5>
+	          <div class="row">
+	            <a  href="https://www.facebook.com/democritusracingteam/" target="_blank"><img src="images/social_media/facebook.png" /></a>
+	            <a href="https://www.instagram.com/democritus_racing/" target="_blank"><img src="images/social_media/instagram.png" /></a>
+	            <a href="https://www.linkedin.com/company/democritus-racing-team" target="_blank"><img src="images/social_media/linkedin.png" /></a>
+	            <a href="https://twitter.com/democrit_racing" target="_blank"><img src="images/social_media/twitter.png" /></a>
+	            <a href="mailto:info.drteam@gmail.com" target="_blank"><img src="images/social_media/mail.png" /></a>
+	          </div>
+	        </div>
+	      </div>
+	    </div>
+	    <div class="footer-copyright">
+	      <div class="container">
+	      DRT | Democritus Racing Team @2018
+	      </div>
+	    </div>
+	  </footer>
+		<!--  Scripts-->
+		<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+		<script src="js/materialize.js"></script>
+		<script src="js/init.js"></script>
+	</body>
 </html>
