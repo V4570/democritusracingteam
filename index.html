@@ -13,6 +13,17 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-73082903-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-73082903-2');
+  </script>
+
 </head>
 <body>
   <ul id="dropdownsponsors" class="dropdown-content">
@@ -25,20 +36,34 @@
     <li><a class="deep-purple-text" href="project50x50.html">Project 50x50</a></li>
     <li><a class="deep-purple-text" href="mediasponsors.html">Media Sponsors</a></li>
   </ul>
+
+  <ul id="dropdownabout" class="dropdown-content">
+    <li><a class="deep-purple-text" href="about.html">Team</a></li>
+    <li><a class="deep-purple-text" href="aboutfsae.html">FSAE Competition</a></li>
+    <li><a class="deep-purple-text" href="aboutfaculty.html">Faculty Advisor</a></li>
+    <li><a class="deep-purple-text" href="aboutothers.html">Other Faculty Members</a></li>
+  </ul>
+  <ul id="dropdownabout-side" class="dropdown-content">
+    <li><a class="deep-purple-text" href="about.html">Team</a></li>
+    <li><a class="deep-purple-text" href="aboutfsae.html">FSAE Competition</a></li>
+    <li><a class="deep-purple-text" href="aboutfaculty.html">Faculty Advisor</a></li>
+    <li><a class="deep-purple-text" href="aboutothers.html">Other Faculty Members</a></li>
+  </ul>
+
   <nav class="deep-purple" role="navigation">
     <div class="nav-wrapper container">
       <a id="logo-container" href="index.html" class="brand-logo hide-on-med-and-down"><img style="height:15%; width:15%;" src="images/logos/logo-2018.svg"/></a>
       <a id="logo-container" href="index.html" class="brand-logo hide-on-med-and-up center"><img style="height:50%; width:50%;" src="images/logos/logo-2018.svg"/></a>
       <a id="logo-container" href="index.html" class="brand-logo hide-on-large-only hide-on-small-only center"><img style="height:30%; width:30%;" src="images/logos/logo-2018.svg"/></a>
       <ul class="right hide-on-med-and-down">
-        <li><a class="white-text" href="about.html">About</a></li>
+        <li><a class="dropdown-trigger white-text" href="#!" data-target="dropdownabout">About<i class="material-icons right white-text">arrow_drop_down</i></a></li>
         <li><a class="white-text" href="team.html">Team</a></li>
         <li><a class="dropdown-trigger white-text" href="#!" data-target="dropdownsponsors">Sponsorship<i class="material-icons right white-text">arrow_drop_down</i></a></li>
         <li><a class="white-text" href="contact.html">Contact</a></li>
       </ul>
 
       <ul id="nav-mobile" class="sidenav deep-purple">
-        <li><a class="white-text" href="about.html">About</a></li>
+        <li><a class="dropdown-trigger white-text" href="#!" data-target="dropdownabout-side">About<i class="material-icons right white-text">arrow_drop_down</i></a></li>
         <li><a class="white-text" href="team.html">Team</a></li>
         <li><a class="dropdown-trigger white-text" href="#!" data-target="dropdownsponsors-side">Sponsorship<i class="material-icons right white-text">arrow_drop_down</i></a></li>
         <li><a class="white-text" href="contact.html">Contact</a></li>
